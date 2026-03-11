@@ -22,7 +22,7 @@ function Navbar() {
 
       <Link to="/" className="flex items-center gap-3">
         <img
-          src="/logo.png"
+          src="/school-logo.png"
           alt="Prakash Public School Logo"
           className="h-10 w-10 object-contain"
         />
@@ -105,5 +105,6 @@ function Navbar() {
     </nav>
   );
 }
+
 
 export default Navbar;
