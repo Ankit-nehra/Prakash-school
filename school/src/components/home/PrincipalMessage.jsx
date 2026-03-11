@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import principalImage from "../../assets/images/principal.png";
+import principalImage from "../../assets/images/principal.jpeg";
 
 function PrincipalMessage() {
   return (
@@ -11,7 +11,7 @@ function PrincipalMessage() {
           <img
             src={principalImage}
             alt="Principal"
-            className="w-64 h-64 object-cover rounded-full shadow-lg"
+            className="w-72 h-72 md:w-80 md:h-80 object-contain rounded-full shadow-lg"
           />
         </div>
 
