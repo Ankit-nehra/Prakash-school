@@ -11,7 +11,7 @@ import Contact from "../pages/Contact";
 function ScrollToTopHandler() {
   const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" }); // or "smooth" for smooth scrolling
+    window.scrollTo({ top: 0, behavior: "smooth" }); // or "smooth" for smooth scrolling
   }, [pathname]);
 
   return null; // nothing to render
