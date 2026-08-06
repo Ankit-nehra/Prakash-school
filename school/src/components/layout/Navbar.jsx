@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-
+import logo from "../../assets/images/school-building.png"
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
@@ -22,12 +22,12 @@ function Navbar() {
 
       <Link to="/" className="flex items-center gap-3">
         <img
-          src="/school-logo.png"
-          alt="Prakash Public School Logo"
+          src={logo}
+          alt=" School Logo"
           className="h-10 w-10 object-contain"
         />
         <h1 className="text-lg md:text-xl font-bold">
-          PRAKASH PUBLIC SCHOOL
+           SCHOOL Site
         </h1>
       </Link>
 
